@@ -13,9 +13,11 @@ javascript:
 $('button.close').alertClose();
 ```
 
-or:
+callback:
 ```
-$('button.close').alertClose(1000);
+$('button.close').alertClose(function(){
+  alert('haha');
+});
 ```
 
 这样，就可以了。
